@@ -62,3 +62,14 @@ CREATE TABLE medicalrecords (
 );
 
 
+INSERT INTO owners (ownerid, ofirstname, olastname, address, phone, email) VALUES
+(1, 'Maria', 'Lopez', 'Batangas City', '09123456781', 'maria.lopez@example.com'),
+(2, 'Juan', 'Santos', 'Lipa City', '09123456782', 'juan.santos@example.com'),
+(3, 'Ana', 'Reyes', 'Tanauan City', '09123456783', 'ana.reyes@example.com'),
+(4, 'Mark', 'Dela Cruz', 'Rosario', '09123456784', 'mark.delacruz@example.com'),
+(5, 'Jenny', 'Gomez', 'San Jose', '09123456785', 'jenny.gomez@example.com'),
+(6, 'Paulo', 'Torres', 'Sto. Tomas', '09123456786', 'paulo.torres@example.com'),
+(7, 'Sofia', 'Cortez', 'Malvar', '09123456787', 'sofia.cortez@example.com'),
+(8, 'Leo', 'Ramos', 'Cuenca', '09123456788', 'leo.ramos@example.com'),
+(9, 'Erika', 'Navarro', 'Balete', '09123456789', 'erika.navarro@example.com'),
+(10, 'Carlos', 'Mendoza', 'Taysan', '09123456780', 'carlos.mendoza@example.com');
