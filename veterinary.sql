@@ -40,8 +40,7 @@ CREATE TABLE doctors (
     email VARCHAR(100)
 );
 
-<<<<<<< HEAD
-=======
+
 CREATE TABLE invoices (
     invoiceid INT PRIMARY KEY,
     appointid INT,
