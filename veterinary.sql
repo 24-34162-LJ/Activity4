@@ -40,3 +40,4 @@ CREATE TABLE doctors (
     email VARCHAR(100)
 );
 
+
