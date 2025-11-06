@@ -137,3 +137,6 @@ VALUES
 (8, 8, '2023-04-18', 'Spaying', 'N/A', 5),
 (9, 9, '2023-05-02', 'Allergic reaction', 'Antihistamines', 4),
 (10, 10, '2023-05-20', 'Conjunctivitis', 'Eye drops', 6);
+
+ALTER TABLE owners
+ADD registereddate DATE;
