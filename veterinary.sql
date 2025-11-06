@@ -60,5 +60,5 @@ CREATE TABLE medicalrecords (
     FOREIGN KEY (animalid) REFERENCES animals(animalid),
     FOREIGN KEY (doctorid) REFERENCES doctors(doctorid)
 );
->>>>>>> d0ad39ee3e89c03dfc9057e40025e3e6d211261c
+
 
