@@ -143,3 +143,9 @@ ADD registereddate DATE;
 
 ALTER TABLE invoices
 CHANGE paymentdate paymenttime TIME;
+
+DELETE FROM appointments
+WHERE animalid = (
+    SELECT animalid FROM animals
+    WHERE name = 'Simba'
+);
