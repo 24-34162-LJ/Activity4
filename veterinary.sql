@@ -47,3 +47,14 @@ CREATE TABLE invoices (
     paymentdate TIME,
     FOREIGN KEY (appointid) REFERENCES appointments(appointid)
 );
+
+CREATE TABLE medicalrecords (
+    recordid INT PRIMARY KEY,
+    animalid INT,
+    visitdate DATE,
+    diagnosis VARCHAR(255),
+    treatment VARCHAR(255),
+    doctorid INT,
+    FOREIGN KEY (animalid) REFERENCES animals(animalid),
+    FOREIGN KEY (doctorid) REFERENCES doctors(doctorid)
+);
