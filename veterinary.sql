@@ -9,3 +9,4 @@ CREATE TABLE owners(
     phone VARCHAR(15),
     email VARCHAR(100)
 );
+
