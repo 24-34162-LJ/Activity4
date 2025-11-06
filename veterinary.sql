@@ -140,3 +140,4 @@ VALUES
 
 ALTER TABLE owners
 ADD registereddate DATE;
+
